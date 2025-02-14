@@ -23,27 +23,10 @@
         border: 1px solid rgba(0, 0, 0, 0.2);
         margin: 10% auto;
       }
-
-      section > * {
-        margin-bottom: 20px;
-      }
-
-      .heading {
-        color: rgba(0, 0, 0, 0.7);
-        font-size: 50px;
-      }
-
       p {
         color: rgba(0, 0, 0, 0.5);
       }
-
-      .line-break {
-        color: rgba(0, 0, 0, 0.6);
-        width: 20%;
-        border: 1px solid;
-      }
-
-      .button {
+      a {
         background-color: #4184e1;
         color: rgba(255, 255, 255, 0.9);
         text-transform: uppercase;
@@ -52,24 +35,39 @@
         height: 40px;
         line-height: 30px;
         border-radius: 40px;
+        display: block;
       }
 
-      .tnc {
+      #heading {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 50px;
+      }
+      #seperator {
+        color: rgba(0, 0, 0, 0.6);
+        width: 20%;
+        border: 1px solid;
+      }
+      #tnc {
         color: rgba(0, 0, 0, 0.3);
         font-size: 20px;
+        margin-bottom: 0px;
+      }
+
+      section > * {
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
     <section>
-      <h1 class="heading">Build your first chatbot in 10 minutes!</h1>
-      <div class="line-break"></div>
+      <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
+      <div id="seperator"></div>
       <p class="content">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
-      <div class="button">try now &rarr;</div>
-      <p class="tnc">
+      <a>try now &rarr;</a>
+      <p id="tnc">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
       </p>
