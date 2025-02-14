@@ -3,74 +3,72 @@
   <head>
     <title>image replication</title>
     <style>
-      .frame {
-        width: 500px;
-        height: 500px;
+      * {
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 0.3px;
+        word-spacing: 3px;
+        font-weight: 100;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+      }
+
+      section {
+        width: 30%;
+        padding: 3%;
         background-color: #ffffff;
         color: rgba(0, 0, 0, 1);
-        border: 1px solid black;
-        margin: 50px auto;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 10% auto;
+      }
+
+      section > * {
+        margin-bottom: 20px;
       }
 
       .heading {
-        font-weight: 100;
-        font-family: sans-serif;
-        text-align: left;
+        color: rgba(0, 0, 0, 0.8);
         font-size: 40px;
-        padding: 25px 25px 5px 25px;
-        margin: 20px;
       }
 
-      .break-line {
-        font-weight: 900;
-        text-align: left;
-        padding: 0px 0px 10px 10px;
-        margin: 0px;
+      p {
+        color: rgba(0, 0, 0, 0.6);
       }
 
-      .content {
-        font-family: sans-serif;
-        font-weight: 100;
-        word-spacing: 3px;
-        padding: 15px;
-        font-size: 20px;
+      .line-break {
+        color: rgba(0, 0, 0, 0.7);
+        width: 20%;
+        border: 1px solid;
       }
+
       .button {
-        width: 80%;
-        height: 50px;
-        font-size: 30px;
-        padding: 2px auto;
         background-color: #4184e1;
+        color: rgba(255, 255, 255, 0.9);
         text-transform: uppercase;
         text-align: center;
-        margin: 10px auto;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
+        border-radius: 40px;
       }
 
-      footer {
-        width: 80%;
-        height: 40px;
-        padding: 20px;
-        color: rgba(0, 0, 0, 0.1);
+      .tnc {
+        color: rgba(0, 0, 0, 0.4);
       }
     </style>
   </head>
   <body>
-    <div class="frame">
+    <section>
       <h1 class="heading">Build your first chatbot in 10 minutes!</h1>
-      <p class="break-line">––––––––––––––</p>
+      <div class="line-break"></div>
       <p class="content">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
-      <div class="button">try now →</div>
-      <footer>
+      <div class="button">try now &rarr;</div>
+      <p class="tnc">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
-      </footer>
-    </div>
+      </p>
+    </section>
   </body>
 </html>
